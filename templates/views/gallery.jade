@@ -15,7 +15,6 @@ block content
 			
 			each gallery in galleries
 				h2= gallery.name
-					.pull-right.text-muted= gallery._.publishedDate.format('Do MMM YYYY')
 				
 				.row.gallery-images
 					if gallery.heroImage.exists
