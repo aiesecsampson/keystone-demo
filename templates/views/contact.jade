@@ -5,11 +5,7 @@ block intro
 		
 		h1 Contact Form
 		
-		p.lead This is an example contact form, demonstrating how to process forms and save data with Keystone.
-		p.lead Please follow us for updates to the demo site.
-		p: a(href="https://twitter.com/keystonejs", class="twitter-follow-button", data-show-count="false", data-size="large") Follow @keystonejs
-		script.
-			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		p.lead Feel free to leave me a message~
 		
 block content
 	.container
@@ -48,5 +44,5 @@ block content
 						label Message
 						textarea(name='message', placeholder='Leave us a message...' rows=4).form-control= formData.message
 					.form-actions
-						p.help-block (note that others can see your enquiry in the <a href='/keystone/enquiries'>admin ui</a>)
+						p.help-block (Will get back to you soon)
 						button(type='submit').btn.btn-primary Send
