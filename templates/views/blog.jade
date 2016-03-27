@@ -63,7 +63,7 @@ block content
 			.col-sm-4.col-md-3
 				if data.categories.length
 					//- h2 Categories
-					.list-group(style='margin-top: 70px;')
+					.list-group(style='margin-top: 50px;')
 						a(href='/blog', class=!data.category ? 'active' : false).list-group-item All Categories
 						each cat in data.categories
 							a(href='/blog/' + cat.key, class=data.category && data.category.id == cat.id ? 'active' : false).list-group-item= cat.name
